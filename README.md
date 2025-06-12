@@ -18,10 +18,10 @@ It can detect file **modifications**, **deletions**, and **new additions**, help
 ---
 
 ## 📁 Folder Structure
-
-File Integrity Checker/
+File-Integrity-Checker/
 ├── Files/                    # Directory to monitor
-│ └── Subfolder/              # Optional nested folders
-├── baseline.txt               # Stores reference hashes
-├── integrity_log.txt           # Logs changes
-├── file_integrity_checker.py
+│   └── Subfolder/            # Optional nested folders
+├── baseline.txt              # Stores reference hashes (generated)
+├── integrity_log.txt         # Logs detected changes (generated)
+├── file_integrity_checker.py # Main Python script
+
