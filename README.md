@@ -40,11 +40,11 @@ Required Python modules:
 
 ## 📁 Folder Structure
 File-Integrity-Checker/
-- Files/                    # Folder to monitor
- │Subfolder/            # Nested files supported
-- file_integrity_checker.py # Main Python script
-- baseline.txt              # Stores SHA-512 hashes (auto-generated)
-- integrity_log.txt         # Logs detected changes (auto-generated)
+- Files/                    -># Folder to monitor
+ │Subfolder/                -># Nested files supported
+- file_integrity_checker.py -># Main Python script
+- baseline.txt              -># Stores SHA-512 hashes (auto-generated)
+- integrity_log.txt         -># Logs detected changes (auto-generated)
 
 --- 
 
