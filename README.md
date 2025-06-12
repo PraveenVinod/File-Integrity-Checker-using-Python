@@ -31,7 +31,7 @@ By comparing current file hashes with a saved baseline, it ensures your files ha
 ## 📁 Folder Structure
 File-Integrity-Checker/
 - Files/                    # Folder to monitor
-- │Subfolder/            # Nested files supported
+ │Subfolder/            # Nested files supported
 - file_integrity_checker.py # Main Python script
 - baseline.txt              # Stores SHA-512 hashes (auto-generated)
 - integrity_log.txt         # Logs detected changes (auto-generated)
