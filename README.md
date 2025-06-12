@@ -64,9 +64,9 @@ Open a terminal and execute: python file_integrity_checker.py
 
 - Step 4: Choose an Option
 After running the script, you’ll see: Choose an option: 1. Generate baseline 2. Check file integrity 3. Exit
-- Option 1: Generate Baseline (First Time Setup) - Use this option only once to create a reference (baseline.txt) of your files. This saves the hash of each file for comparison.
-- Option 2: Check Integrity (Subsequent Runs) - Use this to check if files were: Unchanged, Modified, New, Deleted.
-- Option 3: Exit
+1. Option 1: Generate Baseline (First Time Setup) - Use this option only once to create a reference (baseline.txt) of your files. This saves the hash of each file for comparison.
+2. Option 2: Check Integrity (Subsequent Runs) - Use this to check if files were: Unchanged, Modified, New, Deleted.
+3. Option 3: Exit
 
 ---
 
