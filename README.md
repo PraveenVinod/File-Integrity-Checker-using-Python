@@ -50,20 +50,20 @@ File-Integrity-Checker/
 
 ## ⚙️ Usage
 
-- **Step 1: Prepare Your Files**
-Place the files or folders you want to monitor inside the Files/ directory.
+**Step 1: Prepare Your Files** 
+- Place the files or folders you want to monitor inside the Files/ directory.
 Example: **File-Integrity-Checker/Files/ your_files_here.txt**
 
-- **Step 2: Create Supporting Files**
-These files will be automatically created after the program runs:
+**Step 2: Create Supporting Files** 
+- These files will be automatically created after the program runs:
 1. **baseline.txt:** Stores original hash values (with comment headers).
 2. **integrity_log.txt:** Logs any changes (added, modified, or deleted files)..
 
-- **Step 3: Run the Program**
-Open a terminal and execute: **python file_integrity_checker.py**
+**Step 3: Run the Program** 
+- Open a terminal and execute: **python file_integrity_checker.py**
 
-- **Step 4: Choose an Option**
-After running the script, you’ll see: Choose an option: 1. Generate baseline 2. Check file integrity 3. Exit
+**Step 4: Choose an Option** 
+- After running the script, you’ll see: Choose an option: 1. Generate baseline 2. Check file integrity 3. Exit
 1. Option 1: Generate Baseline (First Time Setup) - Use this option only once to create a reference (baseline.txt) of your files. This saves the hash of each file for comparison.
 2. Option 2: Check Integrity (Subsequent Runs) - Use this to check if files were: Unchanged, Modified, New, Deleted.
 3. Option 3: Exit
